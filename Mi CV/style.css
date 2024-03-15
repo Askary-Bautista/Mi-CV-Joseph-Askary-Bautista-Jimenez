@@ -1,0 +1,97 @@
+
+:root{
+    --margin:5px;
+    --borde: 1px solid red;
+
+}
+body{
+    background-color: rgb(31, 34, 34);
+}
+.container{
+    display: grid;
+    grid-template-columns: 4fr 1fr ; 
+    grid-template-rows: auto; /* Altura automática de las filas */
+    gap: 10px; /* Espacio entre celdas */
+   
+}
+.container_cont{
+    border-radius: 5px;
+    margin: var(--margin);
+    background-color : rgb(250, 250, 250);
+}
+
+.container_desc{
+    border-radius: 5px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: var(--margin);
+    color: white;
+    background-color: #1B396A;
+  }
+
+ .cont_desc{
+    border-bottom: 5px solid black;
+    margin:var(--margin);
+    padding: 5px;
+    display: grid;
+    grid-template-columns: 1fr 5fr ; /* Dos columnas de igual tamaño */
+    grid-template-rows: auto; /* Altura automática de las filas */
+}
+
+
+.desc_info{
+    display: grid;
+    grid-auto-rows: 2fr 1fr;
+    padding: 5px;
+}
+.info_nombre{
+    font-size: 48px;
+    text-align: center;
+    align-self: center;
+    text-decoration: underline;
+    height: 100%;
+}
+.info_carrera{
+    font-size: 28px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    align-self: center;
+    height: 100%;
+}
+.desc_general{
+    display: grid;
+    grid-template-rows: 4fr;
+    margin: 10px;
+}
+.desc_section{
+    padding: 5px;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    border-radius: 379px 379px 114px 114px / 94px 94px 50px 50px;
+}
+.section_p{
+    padding: 5px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+}
+.section_cont{
+    padding: 5px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: justify;
+}
+.desc_ligas{
+    border-radius: 5px;
+    padding: 10px;
+    text-align: justify;
+    font-size: 15px;
+    color: initial;
+    background-color: aliceblue;
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.3); 
+    margin  : 10px;
+}
+
+.p_ligas{
+    font-weight: bold;
+}
